@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+@font-face {
+  font-family: "star_jedi";
+  src: url(./star_jedi/Starjedi.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+body {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(65, 64, 115, 1) 36%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.gridChart {
+  border-color: #9ecaed;
+  box-shadow: 0 0 10px #9ecaed;
+  background-color: blue;
+}
+
+.header {
+  font-size: 2rem;
+}
+.table-box {
+  background: #d5cfb6;
+  font-family: "star_jedi", arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  border: solid 2px black;
+  -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
